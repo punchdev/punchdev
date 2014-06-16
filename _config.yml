@@ -1,6 +1,7 @@
 # Site settings
 title: punchDev Studio
 email: georges@punchdev.com
+username: gduplessy
 description: "We are dedicated to building the best web and mobile solutions for your business."
 baseurl: ""
 url: "http://punchdev.com"
