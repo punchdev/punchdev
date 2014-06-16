@@ -33,6 +33,7 @@ GEM
     jekyll-sass-converter (1.0.0)
       sass (~> 3.2)
     kramdown (1.3.3)
+    libv8 (3.16.14.3)
     liquid (2.5.5)
     listen (2.7.8)
       celluloid (>= 0.15.2)
@@ -49,8 +50,12 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
+    ref (1.0.5)
     safe_yaml (1.0.3)
     sass (3.3.8)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
@@ -62,3 +67,4 @@ PLATFORMS
 DEPENDENCIES
   RedCloth
   jekyll
+  therubyracer
