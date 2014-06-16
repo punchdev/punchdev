@@ -13,6 +13,7 @@ test:
 
 production:
   adapter: postgresql
+  host: HEROKU_POSTGRESQL_PURPLE_URL
   database: punchdev_production
   pool: 5
   timeout: 5000
