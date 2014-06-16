@@ -96,6 +96,7 @@ GEM
     kgio (2.9.2)
     launchy (2.4.2)
       addressable (~> 2.3)
+    libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -141,6 +142,7 @@ GEM
     rake (10.3.2)
     recipient_interceptor (0.1.2)
       mail
+    ref (1.0.5)
     rspec-core (3.0.1)
       rspec-support (~> 3.0.0)
     rspec-expectations (3.0.1)
@@ -187,6 +189,9 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
@@ -246,6 +251,7 @@ DEPENDENCIES
   simplecov
   spring
   spring-commands-rspec
+  therubyracer
   timecop
   title
   uglifier
