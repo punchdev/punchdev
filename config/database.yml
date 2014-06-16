@@ -10,3 +10,9 @@ development: &default
 test:
   <<: *default
   database: punchdev_test
+
+production:
+  adapter: postgresql
+  database: punchdev_production
+  pool: 5
+  timeout: 5000
